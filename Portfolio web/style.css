@@ -1,0 +1,239 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100;
+    padding : 20px 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 100;
+    font-weight: bold;
+    font-feature-settings: ;
+    background-color: rgb(185, 205, 226);
+}
+.logo
+{
+    font-size: 2.5em;
+    color: rgb(9, 7, 7);
+    cursor: default;
+    box-sizing: content-box ;
+
+}
+.logo span
+ {
+color:rgb(246, 239, 252)
+}
+.navigation {
+    margin-left: 50px;
+    display: flex;
+
+}
+.navigation a {
+    font-size: 0.9em;
+    color: rgb(12, 13, 13);
+    text-decoration: none;
+    margin-right: 110px;
+    font-weight: 500;
+    transition: .3s;
+    font-weight: bolder;
+}
+.navigation a:hover {
+    color:#100223;
+    
+}
+.btn-talk {
+    color : #040409;
+    text-decoration: none;
+    padding : 8px 10px;
+    background: #b5bed4;
+    border-radius: 10px;
+    border: 2px solid #eae7ed;
+    font-weight: 900;
+    transition : .3s;
+
+}
+.btn-talk:hover 
+{
+color: #3157d4;
+background: transparent;
+}
+.home {
+    position: relative;
+    width : 100%;
+    height :100vh;
+    background-color: {
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+      };
+    font-weight: bolder;
+    background-size :cover;
+    background-position : cover;
+    display :flex;
+    align-items: center;
+    padding : 30px 100px;
+
+    
+}
+.content {
+    max-width: 500px;
+    color: rgb(4, 1, 18);
+
+}
+.content h2 {
+    font-size : 3em;
+    width: 547px;
+
+}
+.content h2 span {
+    color : #1e0d8f;
+
+}
+.content h4 {
+    font-size: xx-large;
+}
+.content p {
+    padding : 10px 0 40px 0;
+
+}
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 40px;
+    background : hsl(240, 3%, 7%);
+    border-radius: 400px;
+    border: 2px solid #141414;
+    font-weight: 500;
+    transition: .3s;
+    
+    
+}
+.btn-group a:nth-child(2) {
+    color: #111111;
+    background: none;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2)
+{
+color:rgb(7, 1, 16);
+background :#ebeaf7;
+
+}
+.social-icons a
+ {
+position: absolute;
+bottom: 50px;
+background-color: lightblue;
+}
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background:#39363d;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #3d423e;
+    transition: .3s;
+    background-color: #2bb0d8;
+}
+#About {
+    position : relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    flex-direction: column;
+    background-color: #c8b3eb;
+}
+#About h1 {
+    font-size: 3em;
+    padding-bottom: 45px;
+}
+#About h1 span {
+    color: #74b0ed;
+
+}
+#skills {
+    position: relative;
+    width: 100%;
+    height: 48vh;
+    display: flex;
+    align-items: center;
+    padding: 1px 60px;
+    flex-direction: column;
+    background-color: #cbb3f1;
+}
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+    margin-top: 10px;
+    justify-content: right;
+    text-align: center;
+}
+.skills-article{
+    background: rgb(238, 236, 238);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 16px 90px;
+    border-radius: 14px;
+    border: 1px solid black;
+}
+.skills-article:hover {
+    border: 3px solid #ca3716;
+    color: #09070b;
+    font-weight: bolder;
+
+
+
+}
+#skills h1 {
+    font-size: 3em;
+    padding-bottom: 50px;
+}
+#skills h1 span {
+    color: #83e9db;
+}
+.Contact {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    background: #c8b3eb;
+
+}
+.footer {
+    background: #abcff1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 16px 90px;
+}
+img{
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    left: 65%;
+    top: 30%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
